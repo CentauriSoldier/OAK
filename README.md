@@ -19,6 +19,7 @@ OAK is designed to be simple and easy to setup and use. It is literally a matter
 - In the ***php.ini*** file, be sure that **file uploads** is enabled.
 - In the ***php.ini*** file, set the maximum upload file size allowed by modifying the ***upload_max_filesize***, ***'post_max_size'*** and ***'memory_limit'***.
 - Be sure that the user ***'http'*** has read and write access to the ads folder *(where the database and ads are stored)*.
+- Navigate to the manager page (yoursite.com/manager.php) and follow the prompts.
 
 ## The Manager
 
