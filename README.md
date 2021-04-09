@@ -1,5 +1,6 @@
+![OAK Icon](https://raw.githubusercontent.com/CentauriSoldier/OAK/main/oak/android-chrome-192x192.png?raw=true)
 
-# OAK
+# OAK 
 
 The **O**pen **A**d **K**iosk
 
