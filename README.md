@@ -25,6 +25,9 @@ OAK is designed to be simple and easy to setup and use. It is literally a matter
 
 The manager's role is to affect ads in a specific way by either adding ads, editing exisitng ads or deleting ads.
 
+### Custom Icon
+You can use a custom logo image by placing your image in the ***img*** directory and naming it ***userLogo.png***. It will be displayed anywhere a custom logo would be shown. It should be proportionally square.
+
 ## The Data
 
 All of the data are stored in an SQLite database located in the ads directory. For this reason, there is no need to setup an external database in order to use OAK.
