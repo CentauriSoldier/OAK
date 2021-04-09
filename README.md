@@ -6,16 +6,19 @@ The **O**pen **A**d **K**iosk
 
 ## What is O.A.K.?
 
-OAK is an **O**pen **A**d **K**iosk built with PHP, Javascript and HTML. It is designed to be run on a php-enabled server (either local or remote). This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK. One is the **Ad Manager**, the other is the **Ad Player**.
+OAK is an **O**pen **A**d **K**iosk using [PHP](https://www.php.net/), [Javascript](https://www.javascript.com/), [HTML](https://html.com/) and [SQLite](https://sqlite.org/index.html). It is designed to be run on a php-enabled server (either local or remote). This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK. One is the **Ad Manager**, the other is the **Ad Player**.
 
 ### Setup
 
 OAK is designed to be simple and easy to setup and use. It is literally a matter of dropping the OAK directory into the server folder, enabling a few options in your php.ini and then going to the manager page for the initial setup procedure. Adding, editing and deleting ads is equally simple. There is no database setup, no external dependencies and no fuss.
 
-#### php.ini
+#### Your Setup TODO List
 
-In the php.ini file, be sure that the **SQlite3** extension is enabled as well as **file uploads**.
-Make sure that the user'http' has read/write access to the ads folder where the db and ads are stored
+- Put the oak directory into the proper server folder where the oak website will hosted.
+- In the ***php.ini*** file, be sure that the **SQlite3** extension is enabled.
+- In the ***php.ini*** file, be sure that **file uploads** is enabled.
+- In the ***php.ini*** file, set the maximum upload file size allowed by modifying the ***upload_max_filesize***, ***'post_max_size'*** and ***'memory_limit'***.
+- Be sure that the user ***'http'*** has read and write access to the ads folder *(where the database and ads are stored)*.
 
 ## The Manager
 
@@ -23,7 +26,7 @@ The manager's role is to affect ads in a specific way by either adding ads, edit
 
 ## The Data
 
-All of the data are stored in a SQLite database located in the ads directory. For this reason, there is no need to setup an external database in order to use OAK.
+All of the data are stored in an SQLite database located in the ads directory. For this reason, there is no need to setup an external database in order to use OAK.
 
 ## Ad Player
 
