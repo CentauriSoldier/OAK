@@ -2,7 +2,7 @@
 The **O**pen **A**d **K**iosk
 
 ### What is O.A.K.?
-OAK is an **O**pen **A**d **K**iosk built with PHP, Javascript and HTML. It is designed to be run on a php-enabled server (either local or remote). This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK: first, is the **Ad Player**, the other is the **Ad Manager**.
+OAK is an **O**pen **A**d **K**iosk built with PHP, Javascript and HTML. It is designed to be run on a php-enabled server (either local or remote). This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK. One is the **Ad Player**, the other is the **Ad Manager**.
 
 ### Ease of Use
 OAK is designed to be simple and easy to setup and use. It is literally a matter of dropping the OAK directory into the server folder, enabling a few options in your php.ini and then going to the manager page for the initial setup procedure. Adding, editing and deleting ads is equally simple. There is no database setup, no external dependencies and no fuss.
