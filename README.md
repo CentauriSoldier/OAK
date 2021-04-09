@@ -6,7 +6,7 @@ The **O**pen **A**d **K**iosk
 
 ## What is O.A.K.?
 
-OAK is an **O**pen **A**d **K**iosk using [PHP](https://www.php.net/), [Javascript](https://www.javascript.com/), [HTML](https://html.com/) and [SQLite](https://sqlite.org/index.html). It is designed to be run on a php-enabled server (either local or remote). This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK. One is the **Ad Manager**, the other is the **Ad Player**.
+OAK is an **O**pen **A**d **K**iosk using [PHP](https://www.php.net/), [Javascript](https://www.javascript.com/), [HTML](https://html.com/) and [SQLite](https://sqlite.org/index.html). It is designed to be hosted on a php-enabled server (either local or remote) and viewed through a web browser. This server hosts 'ads', 'promos' or whatever term you prefer for infomation in the form of image and video media. There are two roles available for interacting with OAK. One is the **Ad Manager**, the other is the **Ad Player**.
 
 ### Setup
 
