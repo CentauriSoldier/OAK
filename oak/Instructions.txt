@@ -1,0 +1,19 @@
+In the php.ini file, be sure that the SQlite3 extension is enabled as well as file uploads.
+Make sure that the user'http' has read/write access to the ads folder where the db and ads are stored
+
+If using windows [optional settings for convenience]
+
+Set auto-login
+Windows Key + R -> netplwiz -> uncheck 'Must use username and password to use this account' (or something to that)
+
+Set Firefox to start in kiosk mode
+Create scheduled task to fire on-login. Set optional parameter as:
+								-kiosk
+
+Firefox settings (about:config)
+browser.homepage_override.mstone 	ignore
+extensions.pocket.enabled		false
+
+For any browser:
+Be sure js is enabled
+Disable Ad Blocker

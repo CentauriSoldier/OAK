@@ -1,0 +1,31 @@
+/*
+Variable Prefixes and Types
+a = array
+b = boolean
+d = database connection
+f = float
+h = stream/file/window handle;
+i = integer
+n = number (float or int)
+o = generic object
+p = string (path)
+q = string (database query)
+s = string (ambiguous)
+
+
+Notes on naming conventions:
+Variables should be camelCase.
+Variables must contain a prefix.
+Constants are all CAPS expect for the prefix.
+E.g., A string called 'name' would be sName.
+Class names MUST start with an upper case letter (treat as a proper noun).
+
+Notes on Comment Blocks
+ASSCI text is created using http://www.patorjk.com.
+Large blocks use the 'Doom' font.
+Medium blocks use the 'Slant' font.
+Small areas use the 'Small' font.
+
+@author James Jones
+@version 1.0
+*/

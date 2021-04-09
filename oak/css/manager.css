@@ -1,0 +1,227 @@
+:root {
+	--headerPanelWidth: 	100vw;
+	--footerPanelWidth:		100vw;
+	/*Changing the values below
+	will change all dependent
+	elements' values as well.*/
+	--headerPanelHeight: 	9vh;
+	--footerPanelHeight:	10vh;
+	--leftPanelWidth: 		14vw;
+	--rightPanelWidth: 		14vw;
+}
+/*
+*{background-color: 	white;}
+*/
+
+body {
+	/*background-image: url('/img/div_bg.jpg');*/
+}
+
+#headerPanel, #leftPanel, #previewPanel, #rightPanel, #footerPanel {
+	position: 			fixed;
+	background-color: 	black;
+}
+
+#billboardContainer, #playerContainer, #billboard, #player {
+	position: 		absolute;
+	max-width: 		100%;
+	max-height: 	100%;
+}
+
+#headerPanel {
+	/*background-color: 	red;*/
+	top: 				0px;
+	left: 				0px;
+	width: 				var(--headerPanelWidth);
+	height: 			var(--headerPanelHeight);
+	min-width: 			var(--headerPanelWidth);
+	min-height: 		var(--headerPanelHeight);
+	max-width: 			var(--headerPanelWidth);
+	max-height: 		var(--headerPanelHeight);
+}
+
+	#divOAKLogo {
+		position: 	relative;
+		top:		0px;
+		left:		0px;
+	}
+
+		#imgOAKLogo {
+			position: 		relative;
+			max-width: 		100%;
+			max-height: 	100%;
+			top: 			50%;
+			left: 			50%;
+			-ms-transform: 	translate(-50%, -50%);
+			transform: 		translate(-50%, -50%);
+		}
+
+	#divMoTD {
+		position: 			relative;
+		top: 				0px;
+		text-align: 		center;
+	}
+
+	#divUserLogo {
+		position: 	relative;
+		top:		0px;
+		right:		0px;
+		max-width: 	100%;
+		max-height: 100%;
+	}
+
+		#imgUserLogo {
+			position: 		relative;
+			content: 		url('/img/userLogo.png');
+			max-width: 		100%;
+			max-height: 	100%;
+			top: 			50%;
+			left: 			50%;
+			-ms-transform: 	translate(-50%, -50%);
+			transform: 		translate(-50%, -50%);
+		}
+
+/*
+
+*/
+#leftPanel {
+	left: 				0px;
+	top: 				var(--headerPanelHeight);
+	width: 				var(--leftPanelWidth);
+	height: 			calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	min-width: 			var(--leftPanelWidth);
+	min-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	max-width: 			var(--leftPanelWidth);
+	max-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+}
+
+
+	#controlBox {
+		background: 	rgba(0.5, 1, 1, 0.9);
+		border-radius: 	25px;
+		padding-top: 	12px;
+		padding-bottom: 12px;
+	}
+
+	#profileList {
+		width: 80%;
+	}
+
+	/* slider css by https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+	/*
+	.slideContainer {
+		width: 100%;
+	}
+	*/
+	/*
+	.slider {
+		-webkit-appearance: none;
+		width: 				100%;
+		height: 			15px;
+		border-radius: 		5px;
+		background: 		#d3d3d3;
+		outline: 			none;
+		opacity: 			0.7;
+		-webkit-transition: .2s;
+		transition: 		opacity .2s;
+	}
+
+	.slider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: 		none;
+		width: 				25px;
+		height: 			25px;
+		border-radius: 		50%;
+		background: 		#5cb85c;
+		cursor: 			pointer;
+	}
+
+	.slider::-moz-range-thumb {
+		width: 			25px;
+		height: 		25px;
+		border-radius: 	50%;
+		background: 	#5cb85c;
+		cursor: 		pointer;
+	}
+	*/
+
+
+
+/*
+
+*/
+#previewPanel {
+	/*background-color: 	silver;*/
+	margin: 			0px;
+	padding: 			0px;
+	top:				var(--headerPanelHeight);
+	right: 				var(--rightPanelWidth);
+	width: 				calc(100vw - var(--leftPanelWidth) - var(--rightPanelWidth));
+	height: 			calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	min-width: 			calc(100vw - var(--leftPanelWidth) - var(--rightPanelWidth));
+	min-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	max-width: 			calc(100vw - var(--leftPanelWidth) - var(--rightPanelWidth));
+	max-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+}
+
+	#billboardContainer, #playerContainer {
+		width: 				100%;
+		height: 			100%;
+		/*background-color: 	green;*/
+		/* not needed anymore?
+		text-align: 		center;
+		vertical-align: 	middle;
+		overflow: 			hidden;
+		*/
+	}
+
+
+		#billboard, #player {
+			/*background-color: 	blue;*/
+			top: 			50%;
+			left: 			50%;
+			-ms-transform: 	translate(-50%, -50%);
+			transform: 		translate(-50%, -50%);
+		}
+
+/*
+
+*/
+#rightPanel {
+	background-color: 	grey;
+	right: 				0px;
+	top: 				var(--headerPanelHeight);
+	width: 				var(--rightPanelWidth);
+	height: 			calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	min-width: 			var(--rightPanelWidth);
+	min-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+	max-width: 			var(--rightPanelWidth);
+	max-height: 		calc(100vh - (var(--headerPanelHeight) + var(--footerPanelHeight)));
+}
+
+/*
+
+*/
+#footerPanel {
+	/*background-color: 	aqua;*/
+	bottom: 			0px;
+	width: 				var(--footerPanelWidth);
+	height: 			var(--footerPanelHeight);
+	min-width: 			var(--footerPanelWidth);
+	min-height: 		var(--footerPanelHeight);
+	max-width: 			var(--footerPanelWidth);
+	max-height: 		var(--footerPanelHeight);
+}
+
+	#divStatus {
+		bottom: 	0px;
+		text-align: center;
+	}
+
+		#txtStatusTitle {
+
+		}
+
+		#txtStatusMessage {
+
+		}
