@@ -1,6 +1,6 @@
 ![OAK Icon](https://raw.githubusercontent.com/CentauriSoldier/OAK/main/oak/android-chrome-192x192.png?raw=true)
 
-# OAK 
+# OAK
 
 The **O**pen **A**d **K**iosk
 
@@ -34,7 +34,7 @@ All of the data are stored in an SQLite database located in the ads directory. F
 
 ## Ad Player
 
-As the name suggests, the player's role is to display fullscreen ads on a device. The player is a rather *'dumb'* role in that it has no real control and may only display ads in manner dictated to it by the manager. It serves no other function.
+As the name suggests, the player's role is to display fullscreen ads on a device. The player is a rather *'dumb'* role in that it has no real control and may only display ads in a manner dictated to it by the manager. It serves no other function.
 
 ### Player Features
 
@@ -51,4 +51,4 @@ While simply going to the oak website index page is sufficient for running ads, 
 
 ## Stay Calm And Use Alpha
 
-This product is in alpha. Some of the features may not yet be implemented or may be broken. The code is subject to change drastically as this project moves towards beta. It is advised to not use OAK in a production environment until the beta release; however, if you do decide to use OAK in a prduction environment, nothing untoward should occur other than perhaps and error showing on your ad kisok. 
+This product is in alpha. Some of the features may not yet be implemented or may be broken. The code is subject to change drastically as this project moves towards beta. It is advised to not use OAK in a production environment until the beta release; however, if you do decide to use OAK in a production environment, nothing untoward should occur other than perhaps an error showing on your ad kisok.
